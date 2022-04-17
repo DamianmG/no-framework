@@ -1,0 +1,20 @@
+{
+  "name": "damian-gdula/no-frameworkp",
+  "description": "php project eithout framework",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Damian Gdula",
+          "email": "gduladamian@gmail.com",
+          "role": "Creator / Main Developer"
+      }
+  ],
+  "require": {
+      "php": ">=8.0.0"
+  },
+  "autoload": {
+      "psr-4": {
+          "Example\\": "src/"
+      }
+  }
+}
